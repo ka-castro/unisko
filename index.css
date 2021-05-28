@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@700&display=swap');
+body{
+    background-color: rgb(255, 255, 255); /*for easier visualization*/
+    width: 100%;
+    margin: 0;
+}
+#nav-bar{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    display: flex;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+#nav-links {
+    flex-grow: 8;
+    background-color: rgb(255, 255, 255);
+}
+#logo {
+    height: 4.5vh;
+}
+#shopcart-img {
+    height: 4.5vh;
+    float: right;
+}
+#logocontainer {
+    flex-grow: 1;
+}
+#search-bar {
+    flex-grow: 2;
+    float: right;
+}
+#nav-links, a {
+    font-family: 'Farro';
+    text-decoration: none; 
+    font-size: large;  
+    color: #11112e;
+    margin-right: 2vh;
+}
